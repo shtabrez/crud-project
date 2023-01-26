@@ -12,7 +12,7 @@ const Create = () => {
     e.preventDefault();
     console.log("clciekd");
     axios
-      .post("https://63cc094a9b72d2a88e06c9cd.mockapi.io/Crud", {
+      .post("https://63cc094a9b72d2a88e06c9cd.mockapi.io/crudope", {
         name: name,
         email: email,
       })

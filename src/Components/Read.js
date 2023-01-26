@@ -8,7 +8,7 @@ const Read = () => {
 
   function getData() {
     axios
-      .get("https://63cc094a9b72d2a88e06c9cd.mockapi.io/Crud")
+      .get("https://63cc094a9b72d2a88e06c9cd.mockapi.io/crudope")
       .then((res) => {
         setData(res.data);
       });
@@ -16,7 +16,7 @@ const Read = () => {
 
   function handleDelete(id) {
     axios
-      .delete(`https://63cc094a9b72d2a88e06c9cd.mockapi.io/Crud/${id}`)
+      .delete(`https://63cc094a9b72d2a88e06c9cd.mockapi.io/crudope/${id}`)
       .then(() => {
         getData();
       });
